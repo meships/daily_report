@@ -35,12 +35,11 @@ $ rails s
 <br>
 
 # カタログ設計
-https://docs.google.com/spreadsheets/d/1Ftd0K0ZemsrLSfDNt_jpvnnyRbiytbhF0Hzp1bsixzQ/edit#gid=2020033787
-
+https://docs.google.com/spreadsheets/d/1Ftd0K0ZemsrLSfDNt_jpvnnyRbiytbhF0Hzp1bsixzQ/edit#gid=782464957
 <br>
 
 # テーブル定義書
-https://docs.google.com/spreadsheets/d/1Ftd0K0ZemsrLSfDNt_jpvnnyRbiytbhF0Hzp1bsixzQ/edit#gid=782464957
+https://docs.google.com/spreadsheets/d/1Ftd0K0ZemsrLSfDNt_jpvnnyRbiytbhF0Hzp1bsixzQ/edit#gid=2020033787
 
 <br>
 
