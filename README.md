@@ -49,7 +49,7 @@ https://docs.google.com/spreadsheets/d/1Ftd0K0ZemsrLSfDNt_jpvnnyRbiytbhF0Hzp1bsi
 <br>
 
 # ER図
-![ER](readme/dart_ER_ss.png)
+![ER](readme/d.a.r.t_ER_ss.png)
 
 <br>
 
