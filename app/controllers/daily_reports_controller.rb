@@ -21,8 +21,20 @@ class DailyReportsController < ApplicationController
   end
 
   def show
+    @daily_report = DailyReport.find(params[:id])
   end
 
   def edit
+    @daily_report = DailyReport.find(params[:id])
+  end
+
+  def update
+    @daily_report = DailyReport.find(params[:id])
+    if @daily_report.update(daily_report_params)
+      flash[:notice] = "日報を編集しました"
+      redirect_to daily_reports_path
+    else
+      render :edit
+    end
   end
 end
