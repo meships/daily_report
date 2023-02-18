@@ -1,0 +1,2 @@
+class DailyRepot < ApplicationRecord
+end
