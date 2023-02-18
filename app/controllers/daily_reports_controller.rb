@@ -37,4 +37,31 @@ class DailyReportsController < ApplicationController
       render :edit
     end
   end
+
+  def destroy
+    @daily_report = DailyReport.find(params[:id])
+    if @daily_report.destroy
+      flash[:notice] = "日報を削除しました"
+      redirect_to daily_reports_path
+    end
+  end
+
+  private
+
+  def daily_report_params
+    params.require(:daily_report).permit(:user_id, :place, :date, :address, :action_content, :tool, { label_ids: [] }, :latitude, :longitude)
+  end
+
+  def delivery_params
+    params.require(:report_delivery).permit(:user_id)
+  end
+
+  # def set_daily_report
+  #   @daily_report = DailyReport.find(params[:id])
+  # end
+
+  #current_user以外はログイン画面に戻す
+  def login_required
+    redirect_to new_session_path unless current_user
+  end
 end
